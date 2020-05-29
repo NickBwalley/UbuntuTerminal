@@ -1,6 +1,8 @@
 **********************************
 Ubuntu  Terminal Commands
 **********************************
--->Create a New Folder => mkdir <folderName>
+-->Create a New Folder => mkdir <folder_name>
 -->Create a New File in Folder => touch <fileName.txt>
+-->Rename a Folder => mv <old_name> <new_name>
+-->Remove a Folder => rm -R <foler_name>
 
