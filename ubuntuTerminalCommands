@@ -5,4 +5,5 @@ Ubuntu  Terminal Commands
 -->Create a New File in Folder => touch <fileName.txt>
 -->Rename a Folder => mv <old_name> <new_name>
 -->Remove a Folder => rm -R <foler_name>
+-->Remove a File inside a folder => rm <file_name>
 
