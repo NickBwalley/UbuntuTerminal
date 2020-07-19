@@ -1,9 +1,45 @@
 **********************************
 Ubuntu  Terminal Commands
 **********************************
--->Create a New Folder => mkdir <folder_name>
--->Create a New File in Folder => touch <fileName.txt>
--->Rename a Folder => mv <old_name> <new_name>
--->Remove a Folder => rm -R <foler_name>
--->Remove a File inside a folder => rm <file_name>
-
+->> Create a New Folder => mkdir <folder_name>
+->> Create a New File in Folder => touch <fileName.txt>
+->> Rename a Folder => mv <old_name> <new_name>
+->> Remove a Folder => rm -R <foler_name>
+->> Remove a File inside a folder => rm <file_name>
+***********************************
+->> mv <filename> <filename2> # Rename a file or a folder using Ubuntu
+->> sudo chmod -w /path/to/dir # Restrict user from creating a SUBDIR inside a DIR
+************************************
+FILE PERMISSIONS
+************************************
+ u = User
+ g = Group
+ o = Other People (from the outside of the World)
+ 
+ --------------------
+ chmod 754 /dir/file ->> means you are giving 4+2+1 = 7 which means all the file permissions are granted to the user, and 5 ->> means you are giving 4+1 (read+exe) to the group, and 4 ->> means you are giving a read permission to the other people in the world or in other group outside the world
+ 
+ 7, 5, 4  represents the individual permissions for (in this order )
+ user, group, other
+ 
+ 4 -> Stands for "read"
+ 2 -> stands for "write"
+ 1 -> stands for "execute"
+ 0 -> Stands for "No permissions"
+ 
+ -----------------------
+ using the cmd $ ls -l
+ -rw-rw-r-- # this is the file 
+ drwxrwxr-x # this is a folder 
+ 
+ ------------------------
+ - >> means it is a file 
+ # Notice that there are three segments inside the file permissions 
+ rw- >> is the user permissions to the file >> which means that the user has the ability to read, write but cannot be able to execute the file 
+ rw- >> is the group permissions to the file >> which means that the group has the ability to read, write but cannot be able to execute the file 
+ r-- >> is the other users >> which means that the other users of the world has only the ability to read but cannot write nor execute the file permissions of the directory or the file inside the computer 
+ 
+ 
+ 
+ 
+ 
