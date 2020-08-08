@@ -13,6 +13,7 @@ Ubuntu  Terminal Commands
 ->> apt -qq list <program-name> --installed (check quietly if a program is installed)
 ->> snap list (check applications installed using the snap package)
 ->> dpkg-query -l (check applications installed)
+->> CTRL+H (show hidden files and folders in Ubuntu File Manager)
 ****************************************************************************************************************************************
 ->> mv <filename> <filename2> # Rename a file or a folder using Ubuntu
 ->> sudo chmod -w /path/to/dir # Restrict user from creating a SUBDIR inside a DIR
