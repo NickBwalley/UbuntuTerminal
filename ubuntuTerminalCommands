@@ -9,6 +9,10 @@ Ubuntu  Terminal Commands
 ->> rm  <file_name> (Remove a File inside a folder)
 ->> zip -r {filename.zip} {foldername}
 ->> xdg-open ~/<path-to-file> (opens the file in its default application)
+->> apt list --installed (list all the installed packages in Ubuntu)
+->> apt -qq list <program-name> --installed (check quietly if a program is installed)
+->> snap list (check applications installed using the snap package)
+->> dpkg-query -l (check applications installed)
 ****************************************************************************************************************************************
 ->> mv <filename> <filename2> # Rename a file or a folder using Ubuntu
 ->> sudo chmod -w /path/to/dir # Restrict user from creating a SUBDIR inside a DIR
