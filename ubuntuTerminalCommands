@@ -50,6 +50,10 @@ FILE PERMISSIONS
  r-- >> is the other users >> which means that the other users of the world has only the ability to read but cannot write nor execute the file permissions of the directory or the file inside the computer 
  ****************************************************************************************************************************************
  
+ $ sudo apt update (update software)
+ $ sudo apt get upgrade (get software updates or not upgraded)
+ $ gnome-control-center (navigate to system setting)
+ 
  
  
  
