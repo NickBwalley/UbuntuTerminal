@@ -53,6 +53,7 @@ FILE PERMISSIONS
  $ sudo apt update (update software)
  $ sudo apt get upgrade (get software updates or not upgraded)
  $ gnome-control-center (navigate to system setting)
+ $ sudo apt-get dist-upgrade
  
  
  
